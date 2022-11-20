@@ -9,29 +9,13 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- Navbar Code Starts -->
+<?php include_once("navbar.php");?>
 
-<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-    <div class="container">
-        <a href="index.html" class="navbar-brand">Muslim's Attire(MA.com)</a>
-        <form action="" class="d-flex">
-            <input type="search" placeholder="Search items here.." size="70" class="form-control">
-            <input type="submit" value="Search" class="btn btn-success btn-sm ms-1">
-        </form>
-        <ul class="navbar-nav">
-            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Services</a></li>
-            <li class="nav-item"><a href="" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="Login.html" class="nav-link">Login</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Signup</a></li>
-        </ul>
-    </div>
-</nav>
-<!-- Navbar Code Ends -->
     <div class="container mt-5">
         <div class="row">
             <div class="col-lg-6 mx-auto">
                 <div class="card bg-light shadow">
+                    <h2 class="card-header display-2 text-center">Signup Here</h2>
                     <form action="" class="p-5">
                         <div class="mb-2">
                             <label for="">Name</label>
