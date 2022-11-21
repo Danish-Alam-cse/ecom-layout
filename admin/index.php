@@ -18,26 +18,46 @@
         <!-- List group code starts -->
         <div class="col-lg-2">
             <div class="list-group text-center">
-                <a href="" class="list-group-item list-group-item-action">Abaya 
-                    <span class="badge bg-danger">New</span></a>
-                <a href="" class="list-group-item list-group-item-action">Hijaab
-                    <span class="badge bg-danger badge-sm">New</span>
-                </a>
-                <a href="" class="list-group-item list-group-item-action">Gloves
-                    <span class="badge bg-danger">New</span>
-                </a>
-                <a href="" class="list-group-item list-group-item-action">Abaya
-                    <span class="badge bg-danger">New</span>
-                </a>
-                <a href="" class="list-group-item list-group-item-action">Niqaab
-                    <span class="badge bg-danger">New</span>
-                </a>
-                <a href="" class="list-group-item list-group-item-action">Khimar
-                    <span class="badge bg-danger">New</span>
-                </a>
+                <a href="index.php" class="list-group-item list-group-item-action">Home</a>
+                <a href="products.php" class="list-group-item list-group-item-action">Products</a>
+                <a href="category.php" class="list-group-item list-group-item-action">Category</a>
+                <a href="admin_signup.php" class="list-group-item list-group-item-action">Signup</a>
+                <a href="admin_login.php" class="list-group-item list-group-item-action">Login</a>
             </div>
         </div>
         <!-- List group code ends -->
+
+        <div class="col-lg-10">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card bg-success text-light" style="height:200px;">
+                        <h2 class="card-title text-center" style="line-height:200px;">Total Users
+                        </h2>
+                        <div class="card footer bg-success text-center">
+                            <span class="text-light">10,00000</span>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="col-lg-4">
+                <div class="card bg-info text-light" style="height:200px;">
+                        <h2 class="card-title text-center"  style="line-height:200px;">Total Categories</h2>
+                        <div class="card footer bg-info text-center">
+                        <span class="text-light">10,00000</span>
+                    </div>
+                </div>
+                    
+                </div>
+                <div class="col-lg-3">
+                <div class="card bg-warning text-light" style="height:200px;">
+                        <h2 class="card-title text-center"  style="line-height:200px;">Total Products</h2>
+                        <div class="card footer bg-warning text-center">
+                            <span class="text-light">10,00000</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

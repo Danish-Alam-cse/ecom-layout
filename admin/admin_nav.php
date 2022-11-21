@@ -10,7 +10,7 @@
         <ul class="navbar-nav">
             <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="" class="nav-link">Services</a></li>
-            <li class="nav-item"><a href="" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="../index.php" class="nav-link">View</a></li>
             <li class="nav-item"><a href="admin_login.php" class="nav-link">Login</a></li>
             <li class="nav-item"><a href="admin_signup.php" class="nav-link">Signup</a></li>
         </ul>
