@@ -13,6 +13,8 @@
 
     <div class="container mt-5">
         <div class="row">
+        <?php include_once("sidebar.php");?>
+
             <div class="col-lg-6 mx-auto">
                 <div class="card bg-light shadow">
                     <h2 class="card-header display-2 text-center">Admin Signup Here</h2>

@@ -14,7 +14,9 @@
 
     <div class="container mt-5">
         <div class="row">
-            <div class="col-lg-6 mx-auto">
+        <?php include_once("sidebar.php");?>
+
+            <div class="col-lg-7 mx-auto">
                 <div class="card bg-light shadow">
                     <h2 class="card-header display-2 text-center">Insert Category Here</h2>
                     <form action="" class="p-5">
